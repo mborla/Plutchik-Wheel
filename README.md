@@ -4,7 +4,7 @@ Wind-Rose diagram implementation of Plutchik's wheel of emotions using D3.js.
 ## Usage
 Run in local.
 
-Add d3.js script (version 4):
+Add d3.js script (version 4 ):
 
 ```HTML
 <script src="https://d3js.org/d3.v4.min.js"></script>
