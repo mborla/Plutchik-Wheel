@@ -80,7 +80,7 @@ function plutchik(id, json){
           .data(data).enter()
           .append("path")
           .attr("id", function(d){
-          return d.emotion;
+               return d.emotion;
           })
           //.attr("d", "M 0,0 C -10,-10 -10,-40 0,-50 C 10,-40 10,-10 0, 0")
           .attr("d", "M 0,0 C -5,-10 -10,-40 0,-50 C 10,-40 5,-10 0, 0")
@@ -90,12 +90,12 @@ function plutchik(id, json){
           g.append("g")
           .selectAll("g")
           .data(function(){
-          return d3.stack().keys(key)(data);
+               return d3.stack().keys(key)(data);
           })
           .enter().append("g")
           .style("opacity", 0.85)
           .attr("value", function(d,i){
-          return d.index;
+               return d.index;
           })  
           .attr("clip-path", "url(#petal-clip)")
           .selectAll("path")
@@ -110,10 +110,11 @@ function plutchik(id, json){
           .padAngle(0.01)
           .padRadius(innerRadius))
           .attr("fill", function(d,i) { var degree = d3.select(this.parentNode).attr("value"); return z[degree][i]; })
+          .attr("stroke", "white")
           .attr("transform", function() {return "rotate("+ angleOffset + ")"}) 
           .attr("value", function(d,i){
-          var degree = d3.select(this.parentNode).attr("value");
-          return emotions[degree][i];
+               var degree = d3.select(this.parentNode).attr("value");
+               return emotions[degree][i];
           })      
 
 
