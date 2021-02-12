@@ -1,0 +1,58 @@
+[
+    {
+        "emotion": "joy",
+        "degree_0": "0.10",
+        "degree_1": "0.10",
+        "degree_2": "0.10",
+        "total": "0.30"
+    },
+    {
+        "emotion": "trust",
+        "degree_0": "0",
+        "degree_1": "0",
+        "degree_2": "0.70",
+        "total": "0.70"
+    },
+    {
+        "emotion": "fear",
+        "degree_0": "0.80",
+        "degree_1": "0.10",
+        "degree_2": "0.10",
+        "total": "1.00"
+    },
+    {
+        "emotion": "surprise",
+        "degree_0": "0.10",
+        "degree_1": "0",
+        "degree_2": "0",
+        "total": "0.10"
+    },
+    {
+        "emotion": "sadness",
+        "degree_0": "0.40",
+        "degree_1": "0.40",
+        "degree_2": "0.20",
+        "total": "1.00"
+    },
+    {
+        "emotion": "disgust",
+        "degree_0": "0.30",
+        "degree_1": "0.20",
+        "degree_2": "0.30",
+        "total": "0.80"
+    },
+    {
+        "emotion": "anger",
+        "degree_0": "0.30",
+        "degree_1": "0.10",
+        "degree_2": "0.10",
+        "total": "0.50"
+    },
+    {
+        "emotion": "anticipation",
+        "degree_0": "0.10",
+        "degree_1": "0.10",
+        "degree_2": "0",
+        "total": "0.20"
+    }
+]
