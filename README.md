@@ -21,3 +21,7 @@ Add d3.js script (version 4):
 </body>
 ```
 
+## Chart
+![alt text](https://github.com/mborla/Plutchik-Wheel/blob/ab577b0b1cb91a5d4d3db4973cc5b2038772c0f9/images/viz.PNG)
+
+![alt text](https://github.com/mborla/Plutchik-Wheel/blob/ab577b0b1cb91a5d4d3db4973cc5b2038772c0f9/images/viz-hover.PNG)
